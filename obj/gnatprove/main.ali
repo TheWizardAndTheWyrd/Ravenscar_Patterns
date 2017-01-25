@@ -1,7 +1,7 @@
 V "GNAT Lib v2016"
 M P W=b
 A -gnatc
-P DB GP ZX
+P DB LC TF  GP ZX
 
 RN
 RR SIMPLE_BARRIERS
@@ -34,7 +34,7 @@ R ada.execution_time.group_budgets
 R ada.execution_time.timers
 R system.multiprocessors.dispatching_domains
 
-U main%b		main.adb		f2734e66 OO SU
+U main%b		main.adb		76d224f6 OO SU
 W maze%s		maze.adb		maze.ali
 W system%s		system.ads		system.ali
 
@@ -45,8 +45,8 @@ D a-textio.ads		20160516092932 386df5d4 ada.text_io%s
 D interfac.ads		20160516092928 5ab55268 interfaces%s
 D i-cstrea.ads		20160516092926 e53d8b8e interfaces.c_streams%s
 D main.adb		20170125104112 d0a99106 main%b
-D maze.ads		20170125093152 22dadf60 maze%s
-D maze.adb		20170125095146 c23a797f maze%b
+D maze.ads		20170125110318 a67bb5f0 maze%s
+D maze.adb		20170125110536 a5ec3224 maze%b
 D system.ads		20160516092930 2da59038 system%s
 D s-crtl.ads		20160516092926 0ebbdb71 system.crtl%s
 D s-ficobl.ads		20160516092932 078245e4 system.file_control_block%s
@@ -55,7 +55,7 @@ D s-wchcon.ads		20160516092930 1b7d22d2 system.wch_con%s
 X 7 main.adb
 6U11*Main 6b11 11l5 11t9
 X 8 maze.ads
-14k9*Maze 7|4w6 8|19e9
+14k9*Maze 7|4w6 8|23e9
 FD 1 ada.ads
 FS .1 16K9 ada
 FD 2 a-ioexce.ads

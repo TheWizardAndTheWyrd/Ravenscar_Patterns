@@ -1,6 +1,6 @@
 V "GNAT Lib v2016"
 A -gnatc
-P DB GP ZX
+P DB LC TF  GP ZX
 
 RN
 RR SIMPLE_BARRIERS
@@ -23,6 +23,7 @@ RR NO_TASK_ALLOCATORS
 RR NO_TASK_ATTRIBUTES_PACKAGE
 RR NO_TASK_HIERARCHY
 RR NO_TASK_TERMINATION
+RV NO_TASKING
 RR NO_TERMINATE_ALTERNATIVES
 RV NO_IMPLEMENTATION_ASPECT_SPECIFICATIONS
 RV NO_IMPLEMENTATION_PRAGMAS
@@ -36,10 +37,10 @@ R ada.execution_time.group_budgets
 R ada.execution_time.timers
 R system.multiprocessors.dispatching_domains
 
-U maze%b		maze.adb		e0e0a61f OO PK GE
+U maze%b		maze.adb		039787d4 OO PK GE
 W system%s		system.ads		system.ali
 
-U maze%s		maze.ads		1ab72ab4 BN EE OO PK GE
+U maze%s		maze.ads		9e164024 BN EE OO PK GE
 W ada%s			ada.ads			ada.ali
 W ada.text_io%s		a-textio.adb		a-textio.ali
 
@@ -49,8 +50,8 @@ D a-stream.ads		20160516092928 119b8fb3 ada.streams%s
 D a-textio.ads		20160516092932 386df5d4 ada.text_io%s
 D interfac.ads		20160516092928 5ab55268 interfaces%s
 D i-cstrea.ads		20160516092926 e53d8b8e interfaces.c_streams%s
-D maze.ads		20170125093152 22dadf60 maze%s
-D maze.adb		20170125095146 c23a797f maze%b
+D maze.ads		20170125110318 a67bb5f0 maze%s
+D maze.adb		20170125110536 a5ec3224 maze%b
 D system.ads		20160516092930 2da59038 system%s
 D s-crtl.ads		20160516092926 0ebbdb71 system.crtl%s
 D s-ficobl.ads		20160516092932 078245e4 system.file_control_block%s
@@ -60,12 +61,15 @@ X 1 ada.ads
 16K9*Ada 19e8 7|9r6 8|5r8
 X 4 a-textio.ads
 49K13*Text_IO 471e16 7|9w10 8|5r12
-263U14*Put_Line 8|10s7
+263U14*Put_Line 8|13s10 18s7 23s7
 X 7 maze.ads
-12+9 Maze_Type 15r31 8|6r30
-14k9*Maze 12z9 19l5 19e9 8|4b14 12l5 12t9
-15U14*Build 15=21 8|6b14 11l8 11t13
-15*21 M{12+9} 17r18 17r23 8|6b20
+12+9 Maze_Type 15r31 8|7r30
+14k9*Maze 12z9 23l5 23e9 8|4b14 26l5 26t9
+15U14*Build 15=21 8|7b14 19l8 19t13
+15*21 M{12+9} 17r18 17r23 8|7b20
+20t9*Build_Task 8|21b14 24l8 24t18
+X 8 maze.adb
+10t12 Simple_Task 11b17 14l11 14t22
 FD 1 ada.ads
 FS .1 16K9 ada
 FD 2 a-ioexce.ads

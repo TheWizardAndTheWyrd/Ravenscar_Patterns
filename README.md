@@ -1,4 +1,5 @@
 # Ravenscar Patterns
+[![Build Status](https://travis-ci.org/TheWizardAndTheWyrd/Ravenscar_Patterns.svg?branch=master)](https://travis-ci.org/TheWizardAndTheWyrd/Ravenscar_Patterns)
 
 The Gang of Four meets Ada SPARK Ravenscar for elements of reusable safety-critical real-time OOP software. Edit
 

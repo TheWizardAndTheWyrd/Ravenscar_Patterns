@@ -12,6 +12,8 @@ generic
    type Maze_Type is private;
 
 package Maze is
-   procedure Build (M: in out Maze_Type);
-   -- Builds a Maze
+   procedure Build (M: in out Maze_Type)
+     with Global => null,
+     Depends => (M => M);
+   -- Builds a Maze without global state and pure inputs.
 end Maze;

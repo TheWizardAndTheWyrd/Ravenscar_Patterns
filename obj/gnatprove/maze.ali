@@ -24,6 +24,7 @@ RR NO_TASK_ATTRIBUTES_PACKAGE
 RR NO_TASK_HIERARCHY
 RR NO_TASK_TERMINATION
 RR NO_TERMINATE_ALTERNATIVES
+RV NO_IMPLEMENTATION_ASPECT_SPECIFICATIONS
 RV NO_IMPLEMENTATION_PRAGMAS
 RV NO_ELABORATION_CODE
 RV SPARK_05
@@ -35,10 +36,10 @@ R ada.execution_time.group_budgets
 R ada.execution_time.timers
 R system.multiprocessors.dispatching_domains
 
-U maze%b		maze.adb		e8ab19be OO PK GE
+U maze%b		maze.adb		3a5fbc4d OO PK GE
 W system%s		system.ads		system.ali
 
-U maze%s		maze.ads		e3a89e59 BN EE OO PK GE
+U maze%s		maze.ads		1ab72ab4 BN EE OO PK GE
 W ada%s			ada.ads			ada.ali
 W ada.text_io%s		a-textio.adb		a-textio.ali
 
@@ -48,23 +49,23 @@ D a-stream.ads		20160516092928 119b8fb3 ada.streams%s
 D a-textio.ads		20160516092932 386df5d4 ada.text_io%s
 D interfac.ads		20160516092928 5ab55268 interfaces%s
 D i-cstrea.ads		20160516092926 e53d8b8e interfaces.c_streams%s
-D maze.ads		20170125070114 dbc56b8d maze%s
-D maze.adb		20170125072032 336e7233 maze%b
+D maze.ads		20170125093152 22dadf60 maze%s
+D maze.adb		20170125072154 1885632d maze%b
 D system.ads		20160516092930 2da59038 system%s
 D s-crtl.ads		20160516092926 0ebbdb71 system.crtl%s
 D s-ficobl.ads		20160516092932 078245e4 system.file_control_block%s
 D s-parame.ads		20160516092932 7e2a0d7f system.parameters%s
 D s-wchcon.ads		20160516092930 1b7d22d2 system.wch_con%s
 X 1 ada.ads
-16K9*Ada 19e8 7|9r6 8|2r8
+16K9*Ada 19e8 7|9r6 8|4r8
 X 4 a-textio.ads
-49K13*Text_IO 471e16 7|9w10 8|2r12
-263U14*Put_Line 8|7s7
+49K13*Text_IO 471e16 7|9w10 8|4r12
+263U14*Put_Line 8|9s7
 X 7 maze.ads
-12+9 Maze_Type 15r31 8|3r30
-14k9*Maze 12z9 17l5 17e9 8|1b14 9l5 9t9
-15U14*Build 15=21 8|3b14 8l8 8t13
-15*21 M{12+9} 8|3b20
+12+9 Maze_Type 15r31 8|5r30
+14k9*Maze 12z9 19l5 19e9 8|3b14 11l5 11t9
+15U14*Build 15=21 8|5b14 10l8 10t13
+15*21 M{12+9} 17r18 17r23 8|5b20
 FD 1 ada.ads
 FS .1 16K9 ada
 FD 2 a-ioexce.ads

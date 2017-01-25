@@ -13,6 +13,12 @@ The Gang of Four meets Ada SPARK Ravenscar for elements of reusable safety-criti
   access to modern web services, makes hacking accessible.
 * I love to learn.
 
+# Proving SPARK
+An example invocation of `gnatprove` to prove the project on level 4:
+```
+C:> gnatprove -PC:\src\ada\Ravenscar_Patterns\ravenscar_patterns.gpr --ide-progress-bar -u main.adb --level=4 --report=all -j0
+```
+
 # Contributing?
 
 Yes, please!  We make it easy:

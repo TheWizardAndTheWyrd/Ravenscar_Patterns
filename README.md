@@ -1,6 +1,6 @@
-# Ravenscar_Patterns
+# Ravenscar Patterns
 
-An Ada/Ravenscar example of design patterns (based on Gang of Four's work).
+The Gang of Four meets Ada SPARK Ravenscar for elements of reusable safety-critical real-time OOP software. Edit
 
 # Why?
 

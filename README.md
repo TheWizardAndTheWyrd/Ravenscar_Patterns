@@ -30,9 +30,14 @@ Yes, please!  We make it easy:
   topic, and all commits are within the scope of that topic).
 * You don't mind if I squash when merging.
 
+# TODO
+* Implement basic Maze from the `Abstract Factory Patter` in the Gang of Four.
+* Write a test/build harness in Python 3.5.2
+
 # Copyright
 
 Copyright (C) 2017 The Wizard & The Wyrd, LLC
+Copyright (C) 2017 Ramon J. Long IIIOA
 
 # License
 

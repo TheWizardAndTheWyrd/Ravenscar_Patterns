@@ -36,5 +36,8 @@ script:
   # Show GNAT version for the record
   - $PWD/gnat-gpl-2016-x86_64-linux-bin/bin/gprbuild --version
 
+  # Install requirements
+  - pip install -r $PWD/bin/requirements.txt
+
   # Now run gprbuild
   - gprbuild -d -P$PWD/ravenscar_patterns.gpr

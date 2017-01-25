@@ -32,12 +32,21 @@ install:
   # Add GNAT to $PATH
   - export PATH=$PATH:$PWD/gnat-gpl-2016-x86_64-linux-bin/bin/
 
+  # Add ~/envs to $PATH
+  - mkdir ~/envs
+  - export WORKON_HOME=~/envs
+
 script:
   # Show GNAT version for the record
   - $PWD/gnat-gpl-2016-x86_64-linux-bin/bin/gprbuild --version
 
   # Install requirements
-  - pip install -r $PWD/bin/requirements.txt
+  #- pip install -r $PWD/bin/requirements.txt
+
+  # Install virtualenv and virtualenvwrapper
+  - pip install virtualenv
+  - pip install virtualenvwrapper
+  - source /usr/local/bin/virtualenvwrapper.sh 
 
   # Now run gprbuild
   - gprbuild -d -P$PWD/ravenscar_patterns.gpr

@@ -3,6 +3,7 @@
 -- This package provides an Ada SPARK Ravenscar compatible implementation of
 -- the Maze software used to demonstrate the Abstract Factory Pattern
 
+pragma SPARK_Mode;
 pragma Profile (Ravenscar);
 
 with Ada.Text_IO;

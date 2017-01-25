@@ -1,7 +1,7 @@
-# We are using Python 3.5.2 to run any custom tooling.
+# We are using Python 3.5 to run any custom tooling.
 language: python
 python:
-  - "3.5.2"
+  - "3.5"
 
 # Global variables
 env:

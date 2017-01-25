@@ -1,1 +1,8 @@
-obj/*
+obj/*.adb
+obj/*.ads
+obj/*.ali
+obj/*.o
+obj/*.db-shm
+obj/*.db-wal
+obj/*.bexch
+obj/*.exe

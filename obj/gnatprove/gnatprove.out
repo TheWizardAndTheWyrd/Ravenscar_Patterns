@@ -18,4 +18,4 @@ Total                             .         .          .          .         .   
 
 Analyzed 1 unit
 in unit main, 1 subprograms and packages out of 1 analyzed
-  Main at main.adb:4 flow analyzed (0 errors and 0 warnings) and proved (0 checks)
+  Main at main.adb:6 flow analyzed (0 errors and 0 warnings) and proved (0 checks)

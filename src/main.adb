@@ -1,7 +1,7 @@
 pragma SPARK_Mode;
 pragma Profile (Ravenscar);
 
-use Maze;
+with Maze;
 
 procedure Main is
 

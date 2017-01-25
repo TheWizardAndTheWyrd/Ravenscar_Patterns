@@ -10,9 +10,17 @@
       <vfs_project />
       <vfs_file>C:\src\ada\Ravenscar_Patterns\LICENSE.md</vfs_file>
     </file_marker>
-    <file_marker current="true" column=" 1" line=" 1" >
+    <file_marker column=" 1" line=" 1" >
       <vfs_project />
       <vfs_file>C:\src\ada\Ravenscar_Patterns\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 70" line=" 4" >
+      <vfs_project>C:\src\ada\Ravenscar_Patterns\ravenscar_patterns.gpr</vfs_project>
+      <vfs_file>C:\src\ada\Ravenscar_Patterns\src\Maze\maze.ads</vfs_file>
+    </file_marker>
+    <file_marker current="true" column=" 1" line=" 15" >
+      <vfs_project>C:\src\ada\Ravenscar_Patterns\ravenscar_patterns.gpr</vfs_project>
+      <vfs_file>C:\src\ada\Ravenscar_Patterns\src\Maze\maze.ads</vfs_file>
     </file_marker>
   </Project>
   <Project >
